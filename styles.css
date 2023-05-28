@@ -1,0 +1,98 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: hsl(177, 8%, 50%);
+    color: #5e2c9b;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #392c37;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f6f875;
+  }
+  
+  /* Main Content Styles */
+  
+  .main-content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .game-card {
+    background-color: #05b1f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .game-card img {
+    max-width: 100%;
+  }
+  
+  .game-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #40124a;
+    color: #2bbcec;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .main-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
